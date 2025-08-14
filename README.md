@@ -23,7 +23,7 @@ Before setting sail, make sure these are aboard:
 ### Create a certificate
 
 ```bash
-$ generate-cert.sh
+generate-cert.sh
 ```
 
 > 🗝️ Import it into your [Keychain Access](https://support.apple.com/ja-jp/guide/keychain-access/kyca1083/mac) to ensure secure waters ahead.
@@ -31,7 +31,7 @@ $ generate-cert.sh
 ## 🚢 Launching the Fleet
 
 ```bash
-$ docker compose up -d
+docker compose up -d
 ```
 
 ## 🛠️ Installing Frameworks
@@ -41,20 +41,20 @@ $ docker compose up -d
 #### CakePHP
 
 ```bash
-$ composer require cakephp/cakephp .
+composer require cakephp/cakephp .
 ```
 
 #### Laravel
 
 ```bash
-$ composer create-project laravel/laravel .
+composer create-project laravel/laravel .
 ```
 
 #### Laravel Mix
 
 ```bash
-$ npm install
-$ npm run watch
+npm install
+npm run watch
 ```
 
 ### 🪞 [Legacy Container](https://github.com/limnxn/mobydick/blob/main/php/dockerfile-php-legacy) (PHP 7.1)
@@ -62,7 +62,7 @@ $ npm run watch
 #### Koseven
 
 ```bash
-$ composer require koseven/koseven .
+composer require koseven/koseven .
 ```
 
 ## 🐚 Database Settings
